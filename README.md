@@ -270,3 +270,11 @@ git push -u origin main
 > File audio (`dataset/audio/*.wav`), `metadata.csv`, dan checkpoint `models/*.pt`
 > di-ignore (lihat `.gitignore`). README ini menjelaskan cara menyiapkan ulang dataset
 > dan menjalankan training.
+
+## Identitas Mahasiswa
+
+- Nama  : Reffki Andrea Pratama
+- NPM   : G1A023039
+- Prodi : Informatika
+- Universitas : Universitas Bengkulu
+
