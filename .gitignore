@@ -1,0 +1,33 @@
+# Environment & Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dataset audio & metadata (dikumpulkan terpisah; dapat besar)
+dataset/audio/*.wav
+dataset/audio/*.flac
+dataset/audio/*.ogg
+dataset/audio/*.mp3
+dataset/metadata.csv
+
+# Checkpoint & artefak model
+models/*.pt
+models/*.pth
+models/*.pkl
+
+# Hasil evaluasi (dapat dibuat ulang)
+results/*.json
+results/*.png
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
